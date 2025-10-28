@@ -8,8 +8,8 @@ def send_sns_email(subject: str, body: str, receiver_email: str):
     Sends email alerts for high-priority claims.
     """
 
-    sender_email = "samtestdata05@gmail.com"
-    app_password = "jsuj ovhf usuu tghy"  # 🔒 Gmail App Password (not regular password)
+    sender_email = "dummy-email"
+    app_password = "app-password"  # 🔒 Gmail App Password (not regular password)
 
     # Create the email message
     msg = EmailMessage()
